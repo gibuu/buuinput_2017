@@ -1,0 +1,59 @@
+
+
+*******************************************************************************
+Mon Jul 23 13:04:31 2007
+
+
+FIT:    data read from "allData" u 1:2:3
+	x range restricted to [300.000 : 800.000]
+        #datapoints = 99
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.03513e+36       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 3.85882e+16
+
+initial set of free parameter values
+
+a0              = 1
+a1              = 1
+a2              = 1
+a3              = 1
+a4              = 1
+a5              = 1
+a6              = 1
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 254.347
+rel. change during last iteration : -1.65527e-06
+
+degrees of freedom    (FIT_NDF)                        : 92
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.66272
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.76464
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a0              = -1676.08         +/- 350.5        (20.91%)
+a1              = 21.0685          +/- 4.228        (20.07%)
+a2              = -0.108894        +/- 0.02094      (19.23%)
+a3              = 0.000296492      +/- 5.451e-05    (18.38%)
+a4              = -4.4931e-07      +/- 7.858e-08    (17.49%)
+a5              = 3.59958e-10      +/- 5.95e-11     (16.53%)
+a6              = -1.18882e-13     +/- 1.848e-14    (15.55%)
+
+
+correlation matrix of the fit parameters:
+
+               a0     a1     a2     a3     a4     a5     a6     
+a0              1.000 
+a1             -0.999  1.000 
+a2              0.997 -0.999  1.000 
+a3             -0.994  0.997 -0.999  1.000 
+a4              0.990 -0.994  0.997 -0.999  1.000 
+a5             -0.984  0.990 -0.994  0.997 -0.999  1.000 
+a6              0.977 -0.984  0.990 -0.994  0.997 -0.999  1.000 

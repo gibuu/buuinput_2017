@@ -1,0 +1,2 @@
+default: 
+	cp inputSets/oliverThesisInput/* .

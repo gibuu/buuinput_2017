@@ -1,0 +1,62 @@
+
+
+*******************************************************************************
+Mon Jul 23 11:39:27 2007
+
+
+FIT:    data read from "allData" u 1:2:3
+	x range restricted to [300.000 : 900.000]
+        #datapoints = 57
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.54861e+43       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1.84039e+20
+
+initial set of free parameter values
+
+a0              = 1
+a1              = 1
+a2              = 1
+a3              = 1
+a4              = 1
+a5              = 1
+a6              = 1
+a7              = 1
+
+After 27 iterations the fit converged.
+final sum of squares of residuals : 178.957
+rel. change during last iteration : -2.51886e-12
+
+degrees of freedom    (FIT_NDF)                        : 49
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.91107
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.65219
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a0              = -4612.55         +/- 1299         (28.16%)
+a1              = 59.695           +/- 16.77        (28.09%)
+a2              = -0.326901        +/- 0.09177      (28.07%)
+a3              = 0.000982504      +/- 0.0002761    (28.1%)
+a4              = -1.75171e-06     +/- 4.93e-07     (28.14%)
+a5              = 1.85401e-09      +/- 5.224e-10    (28.18%)
+a6              = -1.0788e-12      +/- 3.042e-13    (28.2%)
+a7              = 2.66162e-16      +/- 7.511e-17    (28.22%)
+
+
+correlation matrix of the fit parameters:
+
+               a0     a1     a2     a3     a4     a5     a6     a7     
+a0              1.000 
+a1             -0.999  1.000 
+a2              0.998 -0.999  1.000 
+a3             -0.995  0.998 -1.000  1.000 
+a4              0.992 -0.996  0.998 -1.000  1.000 
+a5             -0.988  0.992 -0.996  0.998 -1.000  1.000 
+a6              0.983 -0.988  0.992 -0.996  0.998 -1.000  1.000 
+a7             -0.977  0.983 -0.988  0.993 -0.996  0.998 -1.000  1.000 

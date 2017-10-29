@@ -1,0 +1,15 @@
+The baryonic in-medium widths and realparts in this directory have been calculated using the flags:
+
+$barbar_barbar
+use_ND_ND_model= .true.
+NR_NR_massSHIFT= .true.
+$end
+
+This is what is used by default. In the directory "NDmodel_false" there is a version of these files which has been calculated with
+
+$barbar_barbar
+use_ND_ND_model= .false.
+NR_NR_massSHIFT= .false.
+$end
+
+If you want to use these files, you have to copy them from "./NDmodel_false" to ".", overwriting the other files.

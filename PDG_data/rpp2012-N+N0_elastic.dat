@@ -1,0 +1,12 @@
+ FILE_NAME
+ REACTION
+ BEAM_MASS TARGET_MASS THRESHOLD FINAL_STATE_MULTIPLICITY
+ NUMBER_OF_DATA_POINTS
+ POINT_NUMBER PLAB(GEV/C) PLAB_MIN PLAB_MAX SIG(MB) STA_ERR+ STA_ERR- SY_ER+(PCT) SY_ER-(PCT) REFERENCE FLAG
+  FORMAT(I5,1X,4F11.5,2F8.4,1X,2F6.1,A)
+ -------------------------------------------------------------------------------------------------------
+ PN_ELASTIC.DAT
+ P N --> P N
+ 0.938270    0.939570      0.            2
+   1
+ 1    1.69000    1.69000    1.69000    19.500     2.5000  2.5000     0.0  0.0  MURRAY 67        NC A49, 261

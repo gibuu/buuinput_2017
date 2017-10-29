@@ -1,0 +1,1 @@
+The files in this directory represent acceptance matrices of the HADES detector at GSI for different reactions. They can be used by setting the switch 'hadesFilterFile' in the namelist 'DileptonAnalysis'.
